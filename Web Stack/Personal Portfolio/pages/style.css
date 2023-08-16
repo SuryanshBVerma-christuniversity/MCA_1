@@ -1,0 +1,74 @@
+body{
+  background-color: #f0f0f0;
+}
+
+li > a{
+  margin-right: 11rem;
+  letter-spacing: 0.03em;
+}
+
+#logo{
+  margin-right: 100px;
+}
+  
+span{
+  display: block;
+  margin-bottom: 2px;
+  padding: 3px;
+}
+
+h1:not([about]){
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  padding-top: 3%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  line-height: 5rem;
+  font-size: 5rem;
+}
+
+
+.para{
+  text-align: justify;
+}
+
+.carouselExampleControls{
+  margin-top: 2rem; 
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+
+.carousel-inner{
+  height: 600px; border-radius: 2rem;
+}
+
+.cards{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  filter: drop-shadow(0 0 10px rgb(138, 169, 247))
+}
+
+.card{
+  margin: 15px;
+}
+
+.card-text, .card-title{
+  text-align: center;
+}
+
+#HC{
+  display: inline;
+  color:  #579bfb;
+}
+
+.footer{
+  color: white;
+  background-image:linear-gradient(rgba(22,22,22,0.1),rgba(22,22,22,0.9)), url(../Static/Images/parallex.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  
+}
