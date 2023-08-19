@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE products SYSTEM "product.dtd">
+<?xml-model href="ecommerce.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<products>
+    <product pid="1">
+        <product_name>ASUS LAPTOP</product_name>
+        <price>300</price>
+        <quantity>300</quantity>
+        <category>Electronics</category>
+    </product>
+</products>
