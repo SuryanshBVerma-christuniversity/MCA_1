@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Companies SYSTEM "company.dtd">
+<?xml-model href="company.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<Companies>
+    <Company cid = "1">
+        <Name>Apple</Name>
+        <Project>Design IOS 18.9v</Project>
+        <Budget>3000</Budget>
+        <No_of_tasks>50</No_of_tasks>
+        <Guideline>Strict</Guideline>
+        <Manager_Name>Clay Jensen</Manager_Name>
+    </Company>
+
+    <Company cid = "2">
+        <Name>Samsung</Name>
+        <Project>Desing New Display</Project>
+        <Budget>1000</Budget>
+        <No_of_tasks>35</No_of_tasks>
+        <Guideline>Negotiable</Guideline>
+        <Manager_Name>Zach Dempsey</Manager_Name>
+    </Company>
+
+    <Company cid = "3">
+        <Name>Oscrop</Name>
+        <Project>Design robot Arms</Project>
+        <Budget>1400</Budget>
+        <No_of_tasks>22</No_of_tasks>
+        <Guideline>Strict</Guideline>
+        <Manager_Name>Mr. Porter</Manager_Name>
+    </Company>
+
+    <Company cid = "4">
+        <Name>Ollivanders Wand Shop</Name>
+        <Project>New wands</Project>
+        <Budget>3200</Budget>
+        <No_of_tasks>50</No_of_tasks>
+        <Guideline>lenient</Guideline>
+        <Manager_Name>Justin Foley</Manager_Name>
+    </Company>
+
+    <Company cid = "5">
+        <Name>Monsters, Inc.</Name>
+        <Project>Monster tech toys</Project>
+        <Budget>1200</Budget>
+        <No_of_tasks>22</No_of_tasks>
+        <Guideline>Strict</Guideline>
+        <Manager_Name>Tyler Down</Manager_Name>
+    </Company>
+
+    <Company cid = "6">
+        <Name>Planet Express, Inc.</Name>
+        <Project>Plant ex</Project>
+        <Budget>2200</Budget>
+        <No_of_tasks>32</No_of_tasks>
+        <Guideline>Strict</Guideline>
+        <Manager_Name>Hannah Baker</Manager_Name>
+    </Company>
+
+    <Company cid = "7">
+        <Name>Cyberdyne Systems</Name>
+        <Project>Drons</Project>
+        <Budget>2200</Budget>
+        <No_of_tasks>30</No_of_tasks>
+        <Guideline>lenient</Guideline>
+        <Manager_Name>Dr. Robert Ellman</Manager_Name>
+    </Company>
+
+    <Company cid = "8">
+        <Name>Men In Black</Name>
+        <Project>Black Watches</Project>
+        <Budget>1000</Budget>
+        <No_of_tasks>32</No_of_tasks>
+        <Guideline>Negotiable</Guideline>
+        <Manager_Name>Jessica Davis</Manager_Name>
+    </Company>
+</Companies>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Companies">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Company" minOccurs="8" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name"></xs:element>
+
+                            <xs:element name="Project"></xs:element>
+
+                            <xs:element name="Budget">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal">
+                                        <xs:minInclusive value="1000"/>
+                                        <xs:maxInclusive value="5000"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="No_of_tasks">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal">
+                                        <xs:minInclusive value="20"/>
+                                        <xs:maxInclusive value="50"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="Guideline">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Strict"/>
+                                        <xs:enumeration value="Negotiable"/>
+                                        <xs:enumeration value="lenient"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="Manager_Name">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Clay Jensen"/>
+                                        <xs:enumeration value="Jessica Davis"/>
+                                        <xs:enumeration value="Mr. Porter"/>
+                                        <xs:enumeration value="Justin Foley"/>
+                                        <xs:enumeration value="Zach Dempsey"/>
+                                        <xs:enumeration value="Tyler Down"/>
+                                        <xs:enumeration value="Hannah Baker"/>
+                                        <xs:enumeration value="Dr. Robert Ellman"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:integer" name="cid" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        
+    </xs:element>
+</xs:schema>

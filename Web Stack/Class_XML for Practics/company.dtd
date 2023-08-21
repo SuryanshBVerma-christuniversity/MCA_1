@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Companies (Company+)>
+<!ELEMENT Company (Name, Project, Budget, No_of_tasks, Guideline, Manager_Name)>
+<!ATTLIST Company cid CDATA #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Project (#PCDATA)>
+<!ELEMENT Budget (#PCDATA)>
+<!ELEMENT No_of_tasks (#PCDATA)>
+<!ELEMENT Guideline (#PCDATA)>
+<!ELEMENT Manager_Name (#PCDATA)>
