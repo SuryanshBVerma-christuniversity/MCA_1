@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="product.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<products>
+    <product pid="2000">
+        <id>1</id>
+        <name>Iphone</name>
+        <price>1000</price>
+        <description>This is a Apple phone</description>
+    </product>
+    <product pid="2001">
+        <id>2</id>
+        <name>Asus Vivobook</name>
+        <price>600</price>
+        <description>This is a Asus laptop</description>
+    </product>
+    <product pid="2500">
+        <id>3</id>
+        <name>Mivi Mini Speaker</name>
+        <price>200</price>
+        <description>This is a mini speaker for your home</description>
+    </product>
+    <product pid="2300">
+        <id>4</id>
+        <name>Samsung Smart-3</name>
+        <price>500.5</price>
+        <description>This is a sumsung smart watch</description>
+    </product>
+</products>
