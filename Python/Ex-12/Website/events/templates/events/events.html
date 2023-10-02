@@ -1,0 +1,21 @@
+{% extends "events/layout.html" %}
+
+
+{% block body %}
+<h1 class="display-3 text-center">EVENTS</h1>
+
+{% if events|length > 0 %}
+
+    <ul>
+        {% for event in events %}
+        <div class="border rounded m-3 p-3 ps-5">
+            <li>EVENT NAME : {{ event.name }}</li>
+            <li>LOCATION : {{ event.location }}</li>
+            <li>DATE : {{ event.date}}</li>
+        </div>
+        {% endfor %}
+    </ul>
+
+{% endif %}
+
+{% endblock %}
